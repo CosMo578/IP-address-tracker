@@ -7,7 +7,7 @@ const BottomSection = ({ data }) => {
   let lat = data?.location.lat;
   let lon = data?.location.lng;
   const customIcon = new Icon({
-    iconUrl: './public/icon-location.svg',
+    iconUrl: '/icon-location.svg',
     iconSize: [46, 56],
   });
 
